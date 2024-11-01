@@ -1,0 +1,17 @@
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 1 AND RoleID = 4;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 10 AND RoleID = 8;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 12 AND RoleID = 8;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 13 AND RoleID = 8;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 11 AND RoleID = 9;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 12 AND RoleID = 9;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 13 AND RoleID = 9;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 7 AND RoleID = 11;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 8 AND RoleID = 11;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 9 AND RoleID = 12;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 2 AND RoleID = 16;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 4 AND RoleID = 17;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 5 AND RoleID = 17;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 15 AND RoleID = 19;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 16 AND RoleID = 21;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 17 AND RoleID = 21;
+UPDATE gbua_cgdb.CabinetPageAccess SET  WHERE CabinetPageID = 18 AND RoleID = 21;

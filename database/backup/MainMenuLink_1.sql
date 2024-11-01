@@ -1,0 +1,18 @@
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 40, Href = null, class = null, attribute = null WHERE LinkID = 1;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 41, Href = null, class = null, attribute = null WHERE LinkID = 2;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 38, Href = null, class = null, attribute = null WHERE LinkID = 3;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 14, Href = null, class = null, attribute = null WHERE LinkID = 4;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 39, Href = null, class = null, attribute = null WHERE LinkID = 5;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 34, Href = null, class = null, attribute = null WHERE LinkID = 6;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 37, Href = null, class = null, attribute = null WHERE LinkID = 7;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 35, Href = null, class = null, attribute = null WHERE LinkID = 8;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 36, Href = null, class = null, attribute = null WHERE LinkID = 9;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = null, Href = '/cabinet/index.php', class = null, attribute = null WHERE LinkID = 10;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = null, Href = '#ru', class = 'lang-button', attribute = 'lang="ru"' WHERE LinkID = 11;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = null, Href = '#en', class = 'lang-button', attribute = 'lang="en"' WHERE LinkID = 12;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = null, Href = ' tel:+995 598 00 14 61', class = 'text-warning font-weight-bold text-center', attribute = null WHERE LinkID = 13;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = null, Href = '#ua', class = 'lang-button', attribute = 'lang="ua"' WHERE LinkID = 14;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 45, Href = null, class = null, attribute = null WHERE LinkID = 15;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 46, Href = null, class = null, attribute = null WHERE LinkID = 16;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 48, Href = null, class = null, attribute = null WHERE LinkID = 17;
+UPDATE gbua_cgdb.MainMenuLink SET PageID = 49, Href = null, class = null, attribute = null WHERE LinkID = 18;

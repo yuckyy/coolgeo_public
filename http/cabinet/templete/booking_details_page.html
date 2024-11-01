@@ -1,0 +1,54 @@
+<div class="container marketing">
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h3 style="text-align: center">{page_primary_title}</h3>
+            <form id="bookingform" class="needs-validation" action="/cabinet/page/create_order.php" method="post" novalidate>
+                <div class="form-row">
+
+                    <div class="col-md-4 mb-3">
+                        <label for="Name">{Name}</label>
+                        <input type="text" class="form-control" id="Name" value="{Name-value}" required disabled>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label for="Phone">{Phone}</label>
+                        <input type="text" class="form-control" id="Phone" value="{Phone-value}" required disabled>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label for="Email">{Email}</label>
+                        <input type="text" class="form-control" id="Email" value="{Email-value}" required disabled>
+                    </div>
+
+                </div>
+
+                {order_details}
+
+                <div class="form-row">
+                    <div class="col-md-12 mb-3">
+                        <label for="Notes">{Notes}</label>
+                        <textarea class="form-control" id="Notes" rows="3" disabled>{Notes-value}</textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-12 mb-3 {HideCardCost}">
+                        <h5>{Общая стоимость}: <span id="bookingAmount">{TotalAmount-value}</span> <span id="bookingCurrency">{TotalAmountCurrency-value}</span></h5>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-12 mb-3">
+                        <a class="btn btn-info" value="{CardButtonBuyTitle}" href="{Details-href}" target="_blank"> {Oписание} </a>
+                        <input type="hidden" class="form-control" id="CardID" name="CardID" value="{CardID}">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="{image_src}" alt="{image_alt}" title="{image_title}">
+            <p class="text-muted text-justify">{page_primary_title_descryption}</p>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+</div>

@@ -1,0 +1,257 @@
+<div class="container marketing">
+    <div class="row featurette">
+        <div class="col-md-12">
+            <h1 style="text-align: center">{Детали бронирования} #{BookingID} </h1>
+        </div>
+    </div>
+</div>
+
+<hr class="style-eight">
+
+<form>
+
+    <div class="form-row">
+        <h3> {Данные клиента}:</h3>
+    </div>
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="Name">{Имя}</label>
+            <div class="form-control" id="Name"> {NameValue} </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="Phone">{Телефон}</label>
+            <div class="form-control" id="Phone"> {PhoneValue} </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <label for="Email">{EMail}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="SendMessage">{Сообщение}</button>
+                </div>
+                <div class="form-control" id="Email"> {EmailValue} </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <h3> {Данные бронирования}:</h3>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-2 mb-3">
+            <label for="StatusID">{Статус}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangeStatus">{Изменить}</button>
+                </div>
+                <div class="form-control" id="StatusID">{StatusIDValue}</div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label for="CardID">{Услуга}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangeService">{Изменить}</button>
+                </div>
+                <div class="form-control" id="CardID">{CardPrimaryTitle}</div>
+            </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+            <label for="DateBooking">{Дата начала}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangeDateStart">{Изменить}</button>
+                </div>
+                <div class="form-control" id="DateBooking" >{DateBookingValue}</div>
+            </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+            <label for="DateEnd">{Дата окончания}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangeDateEnd">{Изменить}</button>
+                </div>
+                <div class="form-control" id="DateEnd" >{DateEndValue}</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-2 mb-3">
+            <label for="PeopleCount">{Человек}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangePeopleCount">{Изменить}</button>
+                </div>
+                <div class="form-control" id="PeopleCount" >{PeopleCountValue}</div>
+            </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+            <label for="HotelID">{Отель}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangeHotelID">{Изменить}</button>
+                </div>
+                <div class="form-control" id="HotelID" >{HotelIDValue}</div>
+            </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+            <label for="TotalAmountCurrency">{Валюта}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangeCurrencyID">{Изменить}</button>
+                </div>
+                <div class="form-control" id="TotalAmountCurrency" >{TotalAmountCurrencyValue}</div>
+            </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+            <label for="BaseAmount">{Базовая стоимость}</label>
+            <div class="form-control" id="BaseAmount"> {BaseAmountValue} </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+            <label for="TotalAmountCorrection">{Корректировка}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangeAmountCorrection">{Изменить}</button>
+                </div>
+                <div class="form-control" id="TotalAmountCorrection"> {TotalAmountCorrectionValue} </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+            <label for="TotalAmount" class="font-weight-bold font-weight-bold text-success">{Итоговая стоимость}</label>
+            <div class="form-control font-weight-bold text-success" id="TotalAmount"> {TotalAmountValue} </div>
+        </div>
+
+    </div>
+
+    <div class="form-row">
+        <h3> {Отель}:</h3>
+    </div>
+
+    <div class="form-row">
+
+        <div class="col-md-8 mb-3">
+            <label for="HotelListID">{Отель}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangeHotelListID">{Изменить}</button>
+                </div>
+                <div class="form-control" id="HotelListID"> {HotelListIDValue} </div>
+            </div>
+        </div>
+
+        <div class="col-md-2 mb-3">
+            <label for="HotelRoomsCount">{Номеров}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangeHotelRoomsCount">{Изменить}</button>
+                </div>
+                <div class="form-control" id="HotelRoomsCount"> {HotelRoomsCountValue} </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="form-row">
+        <h3> {Особые отметки}:</h3>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+            <label for="OperatorNotes">{Заметки оператора}</label>
+            <div class="form-control mb-2 p-3" ><pre id="OperatorNotes">{OperatorNotesValue}</pre></div>
+            <button class="btn btn-outline-secondary" data-booking-id="{BookingID}" data-button-id="ChangeOperatorNotes"> {Изменить} </button>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label for="Notes">{Пожелания клиента}</label>
+            <div class="form-control mb-2 p-3" id="Notes">{NotesValue}</div>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <h3> {Данные для договора}:</h3>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="PasportSurName">{Фамилия}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangePassportSurName">{Изменить}</button>
+                </div>
+                <div class="form-control" id="PasportSurName"> {PasportSurNameValue} </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label for="PasportName">{Имя}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangePassportName">{Изменить}</button>
+                </div>
+                <div class="form-control" id="PasportName"> {PasportNameValue} </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <label for="PasportMiddleName">{Отчество}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangePassportMiddleName">{Изменить}</button>
+                </div>
+                <div class="form-control" id="PasportMiddleName"> {PasportMiddleNameValue} </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-3 mb-3">
+            <label for="PasportSerial">{Паспорт, серия, номер}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangePassportSerial">{Изменить}</button>
+                </div>
+                <div class="form-control" id="PasportSerial"> {PasportSerialValue} </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label for="PasportIssuedBy">{Кем выдан}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangePassportIssuedBy">{Изменить}</button>
+                </div>
+                <div class="form-control" id="PasportIssuedBy"> {PasportIssuedByValue} </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <label for="PasportWhenIssued">{Когда выдан}</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-secondary" type="button" data-booking-id="{BookingID}" data-button-id="ChangePassportIssuedDate">{Изменить}</button>
+                </div>
+                <div class="form-control" id="PasportWhenIssued"> {PasportWhenIssuedValue} </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<script>
+    $("[data-button-id]").on("click", function () {
+        event.preventDefault();
+        booking_edit(this);
+    });
+</script>

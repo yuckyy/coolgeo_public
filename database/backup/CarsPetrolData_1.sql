@@ -1,0 +1,15 @@
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 1, LangID = 1, Name = 'Бензин';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 1, LangID = 2, Name = 'Petrol';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 1, LangID = 4, Name = 'Бензин';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 2, LangID = 1, Name = 'Гибрид';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 2, LangID = 2, Name = 'Hybrid';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 2, LangID = 4, Name = 'Гибрид';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 3, LangID = 1, Name = 'Дизель';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 3, LangID = 2, Name = 'Diesel';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 3, LangID = 4, Name = 'Дизель';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 4, LangID = 1, Name = 'Газ/Бензин';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 4, LangID = 2, Name = 'Gas/Petrol';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 4, LangID = 4, Name = 'Газ/Бензин';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 5, LangID = 1, Name = 'Электро';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 5, LangID = 2, Name = 'Electro';
+UPDATE gbua_cgdb.CarsPetrolData SET CarsPetrolID = 5, LangID = 4, Name = 'Електро';

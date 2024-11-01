@@ -1,0 +1,177 @@
+<div class="container marketing">
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h3 style="text-align: center">{page_primary_title}</h3>
+            <form id="bookingform" class="needs-validation" action="/cabinet/page/create_order.php" method="post" novalidate >
+                <div class="form-row">
+
+                    <div class="col-md-4 mb-3">
+                        <label for="Name">{Name}</label>
+                        <input type="text" class="form-control" id="Name" name="Name" placeholder="{Name-placeholder}" value="{Name-value}" required {Name-readonly}>
+                        <div class=" valid-feedback">
+                            {Looks good!}
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label for="Phone">{Phone}</label>
+                        <input type="tel" class="form-control" id="Phone" name="Phone" placeholder="{Phone-placeholder}" value="{Phone-value}" required {Phone-readonly} >
+                        <div id="error-msg" class="valid-feedback">
+                            {Looks good!}
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label for="Email">{Email}</label>
+                        <input type="text" class="form-control" id="Email" name="Email" placeholder="{Email-placeholder}" value="{Email-value}" required {eMail-readonly}>
+                        <div class="valid-feedback">
+                            {Looks good!}
+                        </div>
+                    </div>
+
+                </div>
+
+                {order_details}
+
+                <div class="form-row">
+                    <div class="col-md-12 mb-3">
+                        <label for="Notes">{Notes}</label>
+                        <textarea class="form-control" id="Notes" name="Notes" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-12 mb-3 {HideCardCost}">
+                        <h5>{Общая стоимость}: <span id="bookingAmount">0</span> <span id="bookingCurrency"></span></h5>
+                    </div>
+                </div>
+
+                <input type="hidden" class="form-control" id="CardID" name="CardID" value="{CardID}">
+                <div class="form-row">
+                    <div class="col-md-12 mb-3">
+                        <a class="btn btn-outline-primary" value="{CardButtonBuyTitle}" href="{Details-href}" target="_blank"> {Oписание} </a>
+                        <input type="button" class="order-button btn btn-primary" value="{CardButtonBuyTitle}">
+                    </div>
+                </div>
+            </form>
+
+            <!--
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function() {
+                    'use strict';
+                    window.addEventListener('load', function() {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function(form) {
+                            form.addEventListener('submit', function(event) {
+                                if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+            </script>
+            -->
+
+            <script>
+                var input = document.querySelector("#Phone"),
+                    errorMsg = document.querySelector("#error-msg")
+                var errorMap = [ "{Неправвильный номер}", "{Неверный код страны}", "{Номер слишком короткий}", "{Номер слишком длинный}", "{Неправильный номер}"];
+                var iti = window.intlTelInput(input, {
+                    utilsScript: "/cabinet/js/utils.js",
+                    preferredCountries: ['ge']
+                });
+                var reset = function() {
+                    input.classList.remove("error");
+                    errorMsg.innerHTML = "";
+                    errorMsg.classList.add("hide");
+                };
+
+                input.addEventListener('blur', function() {
+                    reset();
+                    validatePhone();
+                });
+
+                input.addEventListener('change', reset);
+                input.addEventListener('keyup', reset);
+
+                function validatePhone() {
+                    isValid = false;
+                    if (input.value.trim()) {
+                        if (iti.isValidNumber()) {
+                            isValid = true;
+                        } else {
+                            input.classList.add("error");
+                            var errorCode = iti.getValidationError();
+                            ErrorMsg = errorMap[errorCode];
+                            if (ErrorMsg != undefined){
+                                errorMsg.innerHTML = errorMap[errorCode];
+                                errorMsg.classList.remove("hide");
+                            } else {
+                                input.classList.remove("error");
+                            }
+                            isValid = false;
+                        }
+                    }
+                    return isValid;
+                }
+
+            </script>
+
+            <script>
+
+                $( ".order-button" ).on( "click", function() {
+                    event.preventDefault();
+                    formSubmit(this);
+                });
+
+                $(function(){
+                    var yellow_days   = []; //['01.04.2019','10.04.2019','20.04.2019', '03.03.2019','13.03.2019','23.03.2019'];
+                    var blue_days     = []; //['08.04.2019','16.04.2019','24.04.2019', '07.03.2019','13.03.2019','25.03.2019'];
+                    var hot_days      = []; //['19.04.2019','11.04.2019','03.05.2019','27.03.2019'];
+
+                    $('.OrderDate').datepicker({
+                        language: "{LangValue}",
+                        autoclose: true,
+                        inline: true,
+                        startDate: "today",
+                        sideBySide: true,
+                        format: "dd.mm.yyyy",
+                        clearBtn: true,
+                        beforeShowDay: function (date) {
+                            calender_date = ('0'+date.getDate()).slice(-2) + '.' + (('0'+(date.getMonth()+1)).slice(-2)) + '.' + date.getFullYear() ;
+                            var yellow_index = $.inArray(calender_date, yellow_days);
+                            var blue_index = $.inArray(calender_date, blue_days);
+                            var hot_index = $.inArray(calender_date, hot_days);
+                            if (yellow_index > -1){
+                                return {classes: 'yellow-day', tooltip: 'Еще нет нет скидки в этот день (забронировало 1-6 человек)'};
+                            }
+                            if (blue_index > -1){
+                                return {classes: 'blue-day', tooltip: 'Скидка 5% (забронировало 7-14 человек)'};
+                            }
+                            if (hot_index > -1){
+                                return {classes: 'hot-day', tooltip: 'Скидка 10% (забронировало больше 15 человек)'};
+                            }
+                        }
+                    });
+                })
+
+
+
+            </script>
+
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="{image_src}" alt="{image_alt}" title="{image_title}">
+            <p class="text-muted text-justify">{page_primary_title_descryption}</p>
+        </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+</div>

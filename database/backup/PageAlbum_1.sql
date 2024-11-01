@@ -1,0 +1,13 @@
+UPDATE gbua_cgdb.PageAlbum SET PageID = 40, RowOrder = 6, AllowButtonMore = true, ButtonMorePageID = 38 WHERE AlbumID = 1;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 40, RowOrder = 7, AllowButtonMore = true, ButtonMorePageID = 41 WHERE AlbumID = 2;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 41, RowOrder = 1, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 3;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 41, RowOrder = 2, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 4;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 38, RowOrder = 2, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 5;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 38, RowOrder = 3, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 6;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 38, RowOrder = 4, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 7;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 38, RowOrder = 5, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 8;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 39, RowOrder = 1, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 9;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 39, RowOrder = 2, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 10;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 45, RowOrder = 1, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 11;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 46, RowOrder = 1, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 12;
+UPDATE gbua_cgdb.PageAlbum SET PageID = 47, RowOrder = 1, AllowButtonMore = null, ButtonMorePageID = null WHERE AlbumID = 14;

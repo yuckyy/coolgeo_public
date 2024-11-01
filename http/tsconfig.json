@@ -1,0 +1,46 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "author": {
+    "@id": "#identity"
+  },
+  "copyrightHolder": {
+    "@id": "#identity"
+  },
+  "copyrightYear": "2018-08-20T14:16:00-07:00",
+  "creator": {
+    "@id": "#creator"
+  },
+  "dateModified": "2019-02-05T16:17:33-08:00",
+  "datePublished": "2018-08-20T14:16:00-07:00",
+  "description": "Backed by the largest community of SEOs on the planet, Moz builds tools that make SEO, inbound marketing, link building, and content marketing easy. Start your free 30-day trial today!",
+  "headline": "SEO Software, Tools & Resources for Smarter Marketing",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://moz-static.s3.amazonaws.com/cms/_1200x630_crop_center-center_82_none/moz-stairs-homepage-banner-v2.jpg?mtime=20180724120731"
+  },
+  "inLanguage": "en-us",
+  "mainEntityOfPage": "https://moz.com/",
+  "name": "SEO Software, Tools & Resources for Smarter Marketing",
+  "publisher": {
+    "@id": "#creator"
+  },
+  "url": "https://moz.com/"
+}
+
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "description": "Breadcrumbs list",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://moz.com/",
+        "name": "Homepage"
+      },
+      "position": 1
+    }
+  ],
+  "name": "Breadcrumbs"
+}

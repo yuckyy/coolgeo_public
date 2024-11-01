@@ -1,0 +1,16 @@
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 1 AND RoleID = 1;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 2 AND RoleID = 2;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 3 AND RoleID = 3;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 4 AND RoleID = 4;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 5 AND RoleID = 5;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 6 AND RoleID = 6;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 7 AND RoleID = 7;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 8 AND RoleID = 8;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 9 AND RoleID = 9;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 10 AND RoleID = 10;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 11 AND RoleID = 11;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 12 AND RoleID = 12;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 15 AND RoleID = 15;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 16 AND RoleID = 16;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 18 AND RoleID = 18;
+UPDATE gbua_cgdb.SidebarLinkAccess SET  WHERE LinkID = 19 AND RoleID = 19;

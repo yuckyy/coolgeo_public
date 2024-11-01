@@ -1,0 +1,29 @@
+<style>
+    .table td, .table th {
+        padding: .2rem;
+        vertical-align: central;
+    }
+</style>
+{pagelist_table}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" style="text-align: center">
+            <input id="update-all-button" type="button" class="btn btn-primary btn-flat" value="{Обновить все страницы}">
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function(){
+        $('[data-button-pageid]').on("click", function () {
+            event.preventDefault();
+            page_update(this);
+        });
+        $('#update-all-button').on("click", function () {
+            event.preventDefault();
+            $('[data-button-pageid]').click();
+        });
+    })
+</script>
+
+

@@ -1,0 +1,122 @@
+<div class="login-box" style="margin-top: 70px">
+    <div class="login-logo">
+        <a href="/">
+            <img src="/images/cabinet/logo_1_light.png" alt="Cool Georgia Travel">
+        </a>
+    </div>
+    <div class="login-box-body">
+        <form id="regForm" action="/action_page.php">
+            <!--
+            <div style="text-align:center;">
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+            -->
+            <div class="tab">
+
+                <div class="form-group has-feedback">
+                    <div style="height: 24px;">
+                        <span id="error-msg" ></span>
+                    </div>
+                    <input type="tel" name="Phone" value=""  class="form-control logintext" id="Phone" maxlength="80" size="30">
+                </div>
+
+                <!-- <input class="form-control" id="Phone" type="text" placeholder="{Phone-placeholder}" oninput="$(this).removeClass('invalid')" name="Phone"> -->
+
+                <div class="form-group has-feedback">
+                    <input class="form-control" id="Password" type="password" placeholder="{Password-placeholder}" oninput="$(this).removeClass('invalid')" name="Password">
+                </div>
+
+                <div class="form-group has-feedback">
+                    <input class="form-control" id="PasswordConfirm"type="password" placeholder="{Password-confirm-placeholder}" oninput="$(this).removeClass('invalid')">
+                </div>
+
+            </div>
+            <div class="tab">
+                <div class="form-group has-feedback">
+                    <input class="form-control" id="SmsCode"type="password" placeholder="{SmsCode-placeholder}" oninput="$(this).removeClass('invalid')">
+                </div>
+            </div>
+            <div style="overflow:auto;">
+
+                    <button type="button" class="btn btn-secondary registration" id="prevBtn" onclick="nextPrev(-1)" style="width: 43%">{Previous}</button>
+                    <button type="button" class="btn btn-primary btn-flat loginbutton" id="nextBtn" onclick="nextPrev(1)" style="width: 55%">{Next}</button>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<script>
+    var input = document.querySelector("#Phone"),
+        errorMsg = document.querySelector("#error-msg")
+    // here, the index maps to the error code returned from getValidationError - see readme
+    var errorMap = [ "{Неправвильный номер}", "{Неверный код страны}", "{Номер слишком короткий}", "{Номер слишком длинный}", "{Неправильный номер}"];
+    // initialise plugin
+    var iti = window.intlTelInput(input, {
+        //utilsScript: "https://intl-tel-input.com/node_modules/intl-tel-input/build/js/utils.js?1549804213570",
+        utilsScript: "/cabinet/js/utils.js",
+        preferredCountries: ['ge']
+    });
+    var reset = function() {
+        input.classList.remove("error");
+        errorMsg.innerHTML = "";
+        errorMsg.classList.add("hide");
+    };
+    // on blur: validate
+    input.addEventListener('blur', function() {
+        reset();
+        validatePhone();
+    });
+    // on keyup / change flag: reset
+    input.addEventListener('change', reset);
+    input.addEventListener('keyup', reset);
+
+    function validatePhone() {
+        isValid = false;
+        if (input.value.trim()) {
+            if (iti.isValidNumber()) {
+                isValid = true;
+            } else {
+                input.classList.add("error");
+                var errorCode = iti.getValidationError();
+                ErrorMsg = errorMap[errorCode];
+                if (ErrorMsg != undefined){
+                    errorMsg.innerHTML = errorMap[errorCode];
+                    errorMsg.classList.remove("hide");
+                } else {
+                    input.classList.remove("error");
+                }
+                isValid = false;
+            }
+        }
+        return isValid;
+    }
+</script>
+
+
+
+<script>
+    //$('#Phone').mask('+000000000000');
+    var currentTab = 0; // Current tab is set to be the first tab (0)
+    showTab(currentTab); // Display the current ta
+</script>
+
+
+<!-- FOOTER -->
+<footer class="container text-center">
+    <hr class="style-eight">
+    <p class="card-text mb-auto font-color-red">
+        <strong > Горячая линия 24/7  <i class="icon2-whatsapp" ></i><i class="icon2-volume-control-phone" ></i>  Georgia:+995 598 00 14 61 </strong>
+    </p>
+    <p>We are in social networks</p>
+    <p>
+        <a href="https://www.facebook.com/coolgeorgia.travel/" target="_blank" class="no-hover"><i class="social-icon icon-facebook">&#xf30c;</i></a>
+        <a href="https://plus.google.com/u/3/110500425311244876155" target="_blank" class="no-hover"><i class="social-icon icon-gplus">&#xf30f;</i></a>
+        <a href="https://www.instagram.com/cool_georgia/" target="_blank" class="no-hover"><i class="social-icon icon-instagram">&#xf32d;</i></a>
+        <a href="https://www.youtube.com/channel/UCO7f3tY6dJt9kozcAoY8UWg" target="_blank" class="no-hover"><i class="social-icon icon-youtube">&#xf167;</i></a>
+    </p>
+    <p>&copy; 2019 CoolGeorgia, all rights reserved. Made whith <i class="heart-icon icon-heart">&#xe802;</i> for a best travel.</p>
+</footer>

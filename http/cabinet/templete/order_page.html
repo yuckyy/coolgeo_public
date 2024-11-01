@@ -1,0 +1,45 @@
+<div class="container marketing">
+    <div class="row featurette">
+        <div class="col-md-12">
+            <h1 style="text-align: center">{Оформление бронирования}</h1>
+        </div>
+    </div>
+</div>
+
+
+<hr class="style-eight">
+
+{order_data}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h4>{CoastsTitle}</h4>
+            {CoastsText}
+
+        </div>
+        <div class="col-md-4">
+            <h4>{IncludesTitle}</h4>
+            {IncludesText}
+
+        </div>
+        <div class="col-md-4">
+            <h4>{AdditionalTitle}</h4>
+            {AdditionalText}
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    $(function(){
+        $('#bookingform .form-control').on("change", function () {
+            event.preventDefault();
+            formChange();
+        });
+        formChange();
+    })
+</script>
+
+

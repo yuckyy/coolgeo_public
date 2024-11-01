@@ -1,0 +1,64 @@
+.table td{
+    padding: 0.25rem !important;
+    cursor: pointer;
+}
+
+.PrimaryTitle-column{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.PrimaryTitleDescryption-column{
+    text-align: center;
+
+}
+
+.TotalAmount-column{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.DateBooking-column{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.BookingID-column{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.BookingID-column:before{
+    content: "#";
+}
+
+
+
+.Divider-column{
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .PrimaryTitle-column{
+        text-align: left;
+    }
+    .PrimaryTitleDescryption-column{
+        text-align: left;
+    }
+    .Divider-column{
+        display: none!important;
+    }
+    .TotalAmount-column{
+        text-align: right!important;
+    }
+    .DateBooking-column{
+        text-align: center!important;;
+    }
+    .BookingID-column{
+        text-align: center!important;;
+    }
+    .BookingID-column:before{
+        content: "";
+    }
+}
+

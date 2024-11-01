@@ -1,0 +1,1572 @@
+Application path: /phplivechat/php/app.php?install-wizard-2
+2018-05-22 10:19:01 [error] SQLSTATE[HY000] [2003] Can't connect to MySQL server on '127.0.0.1' (111)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Controller.php:33 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/InstallController.php:2 (Controller:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (InstallController:wizard2Action())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?mobile-login
+2018-05-23 01:34:20 Undefined index: password on line 45 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/MobileAppController.php
+Application path: /phplivechat/php/app.php?mobile-login
+2018-06-07 23:59:54 Undefined index: password on line 45 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/MobileAppController.php
+Application path: /phplivechat/php/app.php?mobile-operator-manage-connection
+2018-07-06 06:24:29 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 2
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:29 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2018-07-06 06:24:29 array_keys() expects parameter 1 to be array, boolean given on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:29 Invalid argument supplied for foreach() on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+Application path: /phplivechat/php/app.php?mobile-operator-manage-connection
+2018-07-06 06:24:29 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 2
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:29 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 2
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:29 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2018-07-06 06:24:29 array_keys() expects parameter 1 to be array, boolean given on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:29 Invalid argument supplied for foreach() on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:29 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 1
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:29 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2018-07-06 06:24:29 array_keys() expects parameter 1 to be array, boolean given on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:29 Invalid argument supplied for foreach() on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+Application path: /phplivechat/php/app.php?mobile-operator-manage-connection
+2018-07-06 06:24:33 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 1
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:33 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 1
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:33 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2018-07-06 06:24:33 array_keys() expects parameter 1 to be array, boolean given on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:33 Invalid argument supplied for foreach() on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:33 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 1
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:33 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2018-07-06 06:24:33 array_keys() expects parameter 1 to be array, boolean given on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 06:24:33 Invalid argument supplied for foreach() on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+Application path: /phplivechat/php/app.php?operator-manage-connection
+2018-07-06 14:34:52 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 1
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 14:34:52 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 1
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 14:34:52 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2018-07-06 14:34:52 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2018-07-06 14:34:52 array_keys() expects parameter 1 to be array, boolean given on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-07-06 14:34:52 Invalid argument supplied for foreach() on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+Application path: /phplivechat/php/app.php?operator-manage-connection
+2018-08-03 21:09:20 syntax error, unexpected $end, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.watched_talks.dat on line 1
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-08-03 21:09:20 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2018-08-03 21:09:20 array_keys() expects parameter 1 to be array, boolean given on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2018-08-03 21:09:20 Invalid argument supplied for foreach() on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+Application path: /phplivechat/php/app.php?upload-upload
+2018-09-20 14:45:02 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2019-04-13 12:41:58 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?guest-track-keep-alive&url=http%3A%2F%2Fcoolgeorgia.com%2F&_t=1555411362477
+2019-04-16 13:42:42 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.online.dat on line 4
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2019-04-16 13:42:42 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.online.dat on line 4
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2019-04-16 13:42:42 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2019-04-16 13:42:42 array_keys() expects parameter 1 to be array, boolean given on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2019-04-16 13:42:42 Invalid argument supplied for foreach() on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+Application path: /phplivechat/php/app.php?guest-track-keep-alive&url=https%3A%2F%2Fcoolgeorgia.com%2Fcabinet%2Fpage%2Flogin.php&_t=1555411371299
+2019-04-16 13:42:51 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.online.dat on line 1
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2019-04-16 13:42:51 syntax error, unexpected '=' in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/../data/memory.online.dat on line 1
+ on line 154 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2019-04-16 13:42:51 Invalid argument supplied for foreach() on line 7 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Utils.php
+2019-04-16 13:42:51 array_keys() expects parameter 1 to be array, boolean given on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+2019-04-16 13:42:51 Invalid argument supplied for foreach() on line 161 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Memory.php
+Application path: /phplivechat/php/app.php?upload-upload
+2019-07-07 23:37:17 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2019-08-29 05:33:17 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2019-08-31 06:47:55 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2019-09-10 18:51:45 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2019-12-30 09:03:41 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-03-16 00:38:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-03-16 00:38:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-03-16 00:38:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-03-16 00:38:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-04-11 06:44:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-04-11 06:44:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-04-11 06:44:26 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-04-11 06:44:26 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-04-20 16:26:06 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-04-20 16:26:06 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-04-20 16:26:07 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-04-20 16:26:07 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-04-26 19:23:58 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-04-26 19:23:58 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-04-26 19:23:58 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-04-26 19:23:58 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-05-08 03:43:56 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-05-08 03:43:56 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-05-08 03:43:56 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-05-08 03:43:56 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-05-17 08:54:46 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-05-17 08:54:46 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-05-17 08:54:47 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-05-17 08:54:47 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-07-05 15:53:05 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-07-05 15:53:05 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-07-05 15:53:06 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-07-05 15:53:06 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-07-05 15:53:29 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-07-05 15:53:29 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-07-05 15:53:29 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-07-05 15:53:29 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-08-19 04:26:37 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-08-19 04:26:37 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-08-19 04:26:38 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-08-19 04:26:38 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-08-30 08:54:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-08-30 08:54:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-08-30 08:54:05 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-08-30 08:54:05 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-get-users
+2020-09-01 04:33:42 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:324 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:getUsersAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-09-01 04:33:42 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?shared-file-download
+2020-09-01 10:14:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/SharedFileModel.php:35 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/SharedFileController.php:9 (SharedFileModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (SharedFileController:downloadAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-09-01 10:14:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2020-09-03 18:36:30 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-09-03 18:36:30 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload
+2020-09-04 16:26:38 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:30 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:15 (UploadController:crudRead())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:crudAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-09-04 16:26:38 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-abort
+2020-09-04 16:50:16 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:144 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:abortAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-09-04 16:50:16 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-get
+2020-09-04 17:25:43 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:294 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:getAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-09-04 17:25:43 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2020-09-04 17:35:28 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-09-04 17:35:28 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-upload
+2020-09-04 17:36:48 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2020-09-04 17:36:48 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:176 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:uploadAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2020-09-04 17:36:48 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-abort
+2021-01-21 02:45:59 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:144 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:abortAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-21 02:45:59 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload
+2021-01-22 08:20:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:30 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:15 (UploadController:crudRead())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:crudAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-22 08:20:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-get
+2021-01-22 11:47:35 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:294 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:getAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-22 11:47:35 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?shared-file-download
+2021-01-22 14:47:01 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/SharedFileModel.php:35 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/SharedFileController.php:9 (SharedFileModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (SharedFileController:downloadAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-22 14:47:01 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2021-01-23 04:40:18 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-23 04:40:18 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2021-01-23 04:40:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-23 04:40:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-upload
+2021-01-24 12:20:38 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2021-01-24 12:20:38 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:176 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:uploadAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-24 12:20:38 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2021-01-24 20:08:44 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-24 20:08:44 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2021-01-24 22:06:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-24 22:06:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2021-01-24 22:06:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-24 22:06:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-get-users
+2021-01-25 00:34:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:324 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:getUsersAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-25 00:34:25 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2021-01-26 07:00:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-26 07:00:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2021-01-26 08:59:14 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-26 08:59:16 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2021-01-26 08:59:16 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-01-26 08:59:16 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-abort
+2021-03-23 22:15:30 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:144 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:abortAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-03-23 22:15:30 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload
+2021-03-23 22:25:52 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:30 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:15 (UploadController:crudRead())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:crudAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-03-23 22:25:52 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-upload
+2021-03-23 23:41:11 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2021-03-23 23:41:11 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:176 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:uploadAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-03-23 23:41:11 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-get
+2021-03-24 02:10:47 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:294 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:getAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-03-24 02:10:47 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?shared-file-download
+2021-03-24 03:26:45 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/SharedFileModel.php:35 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/SharedFileController.php:9 (SharedFileModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (SharedFileController:downloadAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-03-24 03:26:45 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-get-users
+2021-03-24 03:30:59 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:324 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:getUsersAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-03-24 03:30:59 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2021-03-28 12:58:08 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-03-28 12:58:08 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload
+2021-05-28 11:33:15 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:30 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:15 (UploadController:crudRead())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:crudAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-05-28 11:33:15 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-abort
+2021-05-28 11:39:38 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:144 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:abortAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-05-28 11:39:38 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-upload
+2021-05-28 11:52:04 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2021-05-28 11:52:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:176 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:uploadAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-05-28 11:52:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2021-05-29 21:14:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-05-29 21:14:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2021-05-29 21:14:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-05-29 21:14:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-get
+2021-05-30 01:17:13 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:294 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:getAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-05-30 01:17:13 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-get-users
+2021-05-31 23:01:09 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:324 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:getUsersAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-05-31 23:01:09 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-abort
+2021-07-29 16:50:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:144 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:abortAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-07-29 16:50:19 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?shared-file-download
+2021-07-30 16:37:27 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/SharedFileModel.php:35 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/SharedFileController.php:9 (SharedFileModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (SharedFileController:downloadAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-07-30 16:37:27 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload-upload
+2021-07-31 19:33:04 Undefined index: files on line 172 in /home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php
+Application path: /phplivechat/php/app.php?upload-upload
+2021-07-31 19:33:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:238 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:176 (UploadController:findUpload())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:uploadAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-07-31 19:33:04 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2021-09-05 00:42:53 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-09-05 00:42:53 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2021-09-05 00:42:53 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-09-05 00:42:53 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?upload
+2021-11-02 06:51:36 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UploadModel.php:40 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:30 (UploadModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/UploadController.php:15 (UploadController:crudRead())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (UploadController:crudAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2021-11-02 06:51:36 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2023-01-17 01:01:40 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2023-01-17 01:01:41 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2023-01-17 01:01:44 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2023-01-17 01:01:44 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?department-online
+2023-06-22 06:37:01 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/DepartmentModel.php:26 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/DepartmentController.php:188 (DepartmentModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (DepartmentController:getOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2023-06-22 06:37:01 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+Application path: /phplivechat/php/app.php?operator-is-online
+2023-06-22 06:37:01 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:50 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:68 (Database:connect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/Database.php:28 (Database:reconnect())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Service.php:17 (Database:onRegister())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/ServiceContainer.php:55 (Service:setServiceContainer())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/lib/Model.php:20 (ServiceContainer:get())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/model/UserModel.php:518 (Model:__construct())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/controller/OperatorController.php:356 (UserModel:repo())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:165 (OperatorController:isOnlineAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+
+2023-06-22 06:37:01 [error] SQLSTATE[28000] [1045] Access denied for user 'gbua_livechat'@'195.234.4.55' (using password: YES)
+Stack trace:
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/service/ExceptionHandler.php:23 (Logger:error())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:180 (ExceptionHandler:createResponse())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app/Application.php:89 (Application:runAction())
+/home/virtwww/w_html-zemelit_5c622cc9/http/phplivechat/php/app.php:27 (Application:run())
+

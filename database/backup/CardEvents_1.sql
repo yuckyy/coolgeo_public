@@ -1,0 +1,12 @@
+UPDATE gbua_cgdb.CardEvents SET CardID = 17, EventDate = '2019-04-18' WHERE EventId = 1;
+UPDATE gbua_cgdb.CardEvents SET CardID = 17, EventDate = '2019-04-25' WHERE EventId = 2;
+UPDATE gbua_cgdb.CardEvents SET CardID = 25, EventDate = '2019-04-19' WHERE EventId = 3;
+UPDATE gbua_cgdb.CardEvents SET CardID = 25, EventDate = '2019-04-26' WHERE EventId = 4;
+UPDATE gbua_cgdb.CardEvents SET CardID = 16, EventDate = '2019-04-21' WHERE EventId = 5;
+UPDATE gbua_cgdb.CardEvents SET CardID = 16, EventDate = '2019-04-28' WHERE EventId = 6;
+UPDATE gbua_cgdb.CardEvents SET CardID = 2, EventDate = '2019-04-17' WHERE EventId = 7;
+UPDATE gbua_cgdb.CardEvents SET CardID = 2, EventDate = '2019-04-15' WHERE EventId = 8;
+UPDATE gbua_cgdb.CardEvents SET CardID = 11, EventDate = '2019-04-16' WHERE EventId = 9;
+UPDATE gbua_cgdb.CardEvents SET CardID = 11, EventDate = '2019-04-17' WHERE EventId = 10;
+UPDATE gbua_cgdb.CardEvents SET CardID = 1, EventDate = '2019-04-18' WHERE EventId = 11;
+UPDATE gbua_cgdb.CardEvents SET CardID = 1, EventDate = '2019-04-19' WHERE EventId = 12;

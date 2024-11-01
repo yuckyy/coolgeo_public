@@ -1,0 +1,18 @@
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Admin: Pagelist', URI = '/cabinet/page/admin/pagelist.php', Access = true WHERE CabinetPageID = 1;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Admin: Generator', URI = '/cabinet/page/admin/generator.php', Access = true WHERE CabinetPageID = 2;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Cabinet: LogIn', URI = '/cabinet/page/login.php', Access = false WHERE CabinetPageID = 3;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Cabinet: Order', URI = '/cabinet/page/order.php', Access = true WHERE CabinetPageID = 4;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Cabinet: Create order', URI = '/cabinet/page/create_order.php', Access = false WHERE CabinetPageID = 5;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Cabinet: Registration', URI = '/cabinet/page/registration.php', Access = false WHERE CabinetPageID = 6;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Cabinet: Current bookings', URI = '/cabinet/page/current_bookings.php', Access = true WHERE CabinetPageID = 7;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Cabinet: Booking details', URI = '/cabinet/page/booking_details.php', Access = true WHERE CabinetPageID = 8;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Cabinet: Archive bookings', URI = '/cabinet/page/archive_bookings.php', Access = true WHERE CabinetPageID = 9;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Operator: New bokings', URI = '/cabinet/page/operator/booking_new_list.php', Access = true WHERE CabinetPageID = 10;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Operator: Bookings list', URI = '/cabinet/page/operator/booking_list.php', Access = true WHERE CabinetPageID = 11;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Operator: Booking detail', URI = '/cabinet/page/operator/booking_details.php', Access = true WHERE CabinetPageID = 12;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Operator: Callback list', URI = '/cabinet/page/operator/callback_list.php', Access = true WHERE CabinetPageID = 13;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'Cabinrt: Unligined booking details', URI = '/cabinet/page/unlogined_booking_details.php', Access = false WHERE CabinetPageID = 14;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'RentCar: CarsList', URI = '/cabinet/page/rentcar/list_cars.php', Access = true WHERE CabinetPageID = 15;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'RentCar: New bokings', URI = '/cabinet/page/rentcar/booking_new_list.php', Access = true WHERE CabinetPageID = 16;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'RentCar: Bookings list', URI = '/cabinet/page/rentcar/booking_list.php', Access = true WHERE CabinetPageID = 17;
+UPDATE gbua_cgdb.CabinetPage SET Name = 'RentCar: Booking detail', URI = '/cabinet/page/rentcar/booking_details.php', Access = true WHERE CabinetPageID = 18;

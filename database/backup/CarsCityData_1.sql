@@ -1,0 +1,11 @@
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Тбилиси' WHERE CarsCityID = 1 AND LangID = 1;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Tbilisi' WHERE CarsCityID = 1 AND LangID = 2;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Тбилиси' WHERE CarsCityID = 1 AND LangID = 3;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Тбілісі' WHERE CarsCityID = 1 AND LangID = 4;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Батуми' WHERE CarsCityID = 2 AND LangID = 1;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Batumi' WHERE CarsCityID = 2 AND LangID = 2;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Батуми' WHERE CarsCityID = 2 AND LangID = 3;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Батумі' WHERE CarsCityID = 2 AND LangID = 4;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Кутаиси' WHERE CarsCityID = 3 AND LangID = 1;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Kutaisi' WHERE CarsCityID = 3 AND LangID = 2;
+UPDATE gbua_cgdb.CarsCityData SET Name = 'Кутаiсi' WHERE CarsCityID = 3 AND LangID = 4;

@@ -1,0 +1,347 @@
+
+/* Стилизация псевдокнопки */
+.heightstatic{
+    height: 700px!important;
+}
+.card-details-short-price{
+    /*color: red;*/
+    /*font-size: larger;*/
+    /*font-weight: bold;*/
+    font-size: 23.04px;
+    font-weight: 700 ;
+    line-height: 34.56px;
+ }
+ .sizefont{
+     font-size: 1.3em;
+ }
+ .sizefont2{
+    font-size: 1.5em;
+}
+.margin-1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.margin-2{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.margin-3{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.xldnone{
+    display: block;
+}
+.mbdnone{
+    display: none;
+}
+.div1{
+    display: none;
+  }
+
+@media (max-width: 900px){
+    .carimgsetup{
+        height:13rem!important
+    }
+    .carimgsetup2{
+        height:13rem!important
+    }
+    .block_with_text
+    {
+        display: none;
+    }    
+    .icontransfer1{
+        margin-top:26px;
+    }
+    .icontransfer{
+        margin-top:85px;
+    }  
+}
+
+@media (min-width: 992px){
+    .icontransfer1{
+        margin-left:25px;
+        margin-top:25px;
+    }
+    .icontransfer{
+        margin-left:25px;
+        margin-top:85px;
+    }  
+    .carimgsetup{
+        height:15rem!important
+    }
+    .carimgsetup2{
+        height:16rem!important
+    }
+    .foodimgsetup2{
+        height:18rem!important;
+        min-width: 18rem!important;
+    }
+    .block_with_text
+{
+    margin-right: 15em;
+    margin-left: 15em;
+    display: none;
+}  
+}
+.item{
+    
+}
+.foott2{
+/* position:fixed; */
+    /* left:0px; */
+    bottom:30px;
+    height:35px;
+    background-color: #163135!important;
+    
+}
+.foottt{
+    /* position:fixed; */
+    /* left:0px; */
+    bottom:90px;
+    /* height:30px; */
+    /* background-color: #303030!important; */
+    
+    /* width:305px; */
+}
+.foott {
+    /* position:fixed; */
+    /* left:0px; */
+    bottom:30px;
+    /* height:30px; */
+    background-color: #163135!important;
+    
+    width:305px;
+ }
+.sidenav {
+    z-index: 999;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #fff!important; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    /* font-size: 10px; */
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.fltr{
+    width: 100%!important;
+}
+.sizefont3{
+    font-size: 1.1em;
+}
+.sizefont4{
+    font-size: 0.8em;
+}
+.borderfltr{
+    border: black;
+    
+    border-style:outset;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #163135 ;
+}
+@media only screen and (max-width: 395px) {
+    .card-details-short{
+        padding-left: 5px;
+        font-size: 12px
+    }
+    .xldnone{
+        display: none;
+    }
+    .mbdnone{
+        display: block;
+    }
+    .text,
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .text {
+  display: block;
+}
+
+}
+
+.no-hover{
+    color:#147a87;
+    text-decoration:none;
+}
+
+.no-hover:hover{
+    color:#b21f2d;
+    text-decoration:none;
+    text-shadow: 1px 1px 3px rgba(56, 56, 56, 0.7);
+}
+
+.style-eight {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    text-align: center;
+}
+.style-eight:after {
+    border: 0;
+    content: url(/images/heart.png);
+    display: inline-block;
+    position: relative;
+    top: -0.6em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.style-eight-dark {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    text-align: center;
+}
+.style-eight-dark:after {
+    border: 0;
+    content: url(/images/heart_dark.jpg);
+    display: inline-block;
+    position: relative;
+    top: -0.6em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    /*background: white;*/
+}
+
+
+.font-color-red{
+    color: #b21f2d;
+}
+
+.font-color-blue{
+    color: #147a87;
+}
+
+.g-recaptcha {
+    transform:scale(0.85);
+    transform-origin:0 0;
+}
+
+
+.SignIn{
+    background: url("/images/Gray_CoolGeorgiaIcons_in.png") no-repeat top center;
+    background-size: auto 100% ;
+}
+.SignIn:hover{
+    background: url("/images/White_CoolGeorgiaIcons_in.png") no-repeat top center;
+    background-size: auto 100% ;
+}
+
+.LangButton{
+    background: url("/images/Gray_CoolGeorgiaIcons_language.png") no-repeat top center;
+    background-size: auto 100% ;
+}
+.LangButton:hover{
+    background: url("/images/White_CoolGeorgiaIcons_language.png") no-repeat top center;
+    background-size: auto 100% ;
+}
+
+.list-ok {
+    list-style-image: url(/images/ok.png);
+}
+
+.col-half-offset{
+    margin-left:4.166666667%
+}
+
+.tn-atom {
+    border-width: 2px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: #595959;
+    border-style: dashed;
+}
+
+
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1.4em;
+}
+h3{
+    font-size: 1.3em;
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 1.2em;
+    }
+    h2{
+        font-size: 1.15em;
+    }
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #477ec2;
+    border-color: #477ec2;
+}
+
+.btn-outline-primary {
+    color: #477ec2;
+    background-color: transparent;
+    background-image: none;
+    border-color: #477ec2;
+}
+
+.btn-outline-primary:hover{
+    color:#fff;
+    background-color:#477ec2;
+    border-color:#477ec2
+}
+
+.card-contact{
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.8), 0px 8px 13px rgba(0,0,0,0.8), 0px 18px 23px rgba(0,0,0,0.8);
+    background-color: rgba(22, 49, 53, .8);
+
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.8), 0px 8px 13px rgba(0,0,0,0.8), 0px 18px 23px rgba(0,0,0,0.8);
+    color: white;
+}
+

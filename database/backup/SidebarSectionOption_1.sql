@@ -1,0 +1,15 @@
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 1, RowOrder = 1 WHERE OptionID = 1;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 1, RowOrder = 2 WHERE OptionID = 2;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 1, RowOrder = 3 WHERE OptionID = 3;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 2, RowOrder = 2 WHERE OptionID = 4;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 2, RowOrder = 3 WHERE OptionID = 5;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 3, RowOrder = 2 WHERE OptionID = 6;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 3, RowOrder = 3 WHERE OptionID = 7;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 3, RowOrder = 4 WHERE OptionID = 8;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 3, RowOrder = 5 WHERE OptionID = 9;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 3, RowOrder = 6 WHERE OptionID = 10;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 2, RowOrder = 1 WHERE OptionID = 12;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 4, RowOrder = 1 WHERE OptionID = 15;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 4, RowOrder = 2 WHERE OptionID = 16;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 4, RowOrder = 3 WHERE OptionID = 17;
+UPDATE gbua_cgdb.SidebarSectionOption SET SectionID = 4, RowOrder = 4 WHERE OptionID = 18;

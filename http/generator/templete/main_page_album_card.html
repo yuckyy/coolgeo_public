@@ -1,0 +1,23 @@
+<div class="col-md-4">
+    <div class="card mb-4 box-shadow">
+        <a href="{button_details_href}">
+            <img class="card-img-top" src="{image_src}" alt="{image_alt}" title="{image_title}">
+        </a>
+        <div class="card-body">
+            <p class="card-text">{card_descryption}</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <a href="{button_details_href}" class="btn btn-sm btn-outline-secondary">{button_details}</a>
+                    <a href="{button_more_href}"
+                       class="buyit btn btn-sm btn-outline-secondary"
+                       onclick="event.preventDefault();"
+                       data-cartpage="{cartpage}"
+                       data-langpage="{langpage}"
+                        >{button_buy}</a>
+                </div>
+                <div class="card-details-short">{card_details_short}</div>
+                <div class="card-details-short-price">{card_details_short_price}</div>
+            </div>
+        </div>
+    </div>
+</div>

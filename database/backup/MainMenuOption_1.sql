@@ -1,0 +1,12 @@
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 1 WHERE OptionID = 1;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 4 WHERE OptionID = 2;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 2 WHERE OptionID = 3;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 3 WHERE OptionID = 4;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 9 WHERE OptionID = 5;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 11 WHERE OptionID = 6;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 8 WHERE OptionID = 7;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 12 WHERE OptionID = 8;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 13 WHERE OptionID = 9;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 14 WHERE OptionID = 10;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 6 WHERE OptionID = 11;
+UPDATE gbua_cgdb.MainMenuOption SET RowNumber = 5 WHERE OptionID = 12;

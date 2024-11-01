@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{page_templete_description}">
+    <meta name="keywords" content="{page_templete_keywords}">
+    <meta name="author" content="Cool Georia Travel">
+
+    <style>
+        .contactsmap{display: none}
+    </style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120918971-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-120918971-1');
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(54100951, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true,
+            trackHash:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/54100951" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <title>{page_templete_title} - Cool Georgia Travel</title>
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="/css/coolgeorgia.css" rel="stylesheet">
+    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/coolgeorgia.css" rel="stylesheet">
+    <link href="/css/fontello.css" rel="stylesheet">
+    <link href="/css/new-css.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link href="/js/jquery/jquery-ui.css" rel="stylesheet">
+
+    <script src="/js/jquery/jquery.js"></script>
+
+    <script src="/js/jquery/jquery-ui.min.js"></script>
+    <script src="/js/jquery/jquery.mask.min.js"></script>
+
+    <script src="/js/buyit-button.js"></script>
+    <script src="/js/review-button.js"></script>
+    <script src="/js/lang-button.js"></script>
+
+    <!--
+    <script>(function(d,t,u,s,e){e=d.getElementsByTagName(t)[0];s=d.createElement(t);s.src=u;s.async=1;e.parentNode.insertBefore(s,e);})(document,'script','//coolgeorgia.com/phplivechat/php/app.php?widget-init.js');</script>
+    -->
+    
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+    {additional_headers}
+</head>
+<body>
+<noscript>
+    <br>
+    <p style="text-align: center; color: red; font-weight: bold">Your browser does not work JavaScript, order services through contacts page!</p>
+    <p style="text-align: center; color: red; font-weight: bold">Ваш браузер не поддерживает JavaScript, заказ услуг через страницу контактов!</p>
+</noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/49266409" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<header>
+
+    {navigation_menu_bar}
+
+</header>
+
+<main>
+
+    {page_content}
+
+</main>
+
+<script>
+    $( ".lang-button" ).on( "click", function() {
+        event.preventDefault();
+        lang_button(this);
+    });
+</script>
+
+<script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+<script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
+
+<script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/holder.min.js"></script>
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+    (function(){ var widget_id = '7sGtmdsJ3m';var d=document;var w=window;function l(){
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+        s.src = '//code.jivosite.com/script/widget/'+widget_id
+        ; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}
+        if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}
+        else{w.addEventListener('load',l,false);}}})();
+</script>
+<!-- {/literal} END JIVOSITE CODE -->
+
+</body>
+</html>

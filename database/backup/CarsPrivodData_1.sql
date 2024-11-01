@@ -1,0 +1,12 @@
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Передний' WHERE CarsPrivodID = 1 AND LangID = 1;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Front' WHERE CarsPrivodID = 1 AND LangID = 2;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Передний' WHERE CarsPrivodID = 1 AND LangID = 3;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Передній' WHERE CarsPrivodID = 1 AND LangID = 4;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Задний' WHERE CarsPrivodID = 2 AND LangID = 1;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Rear' WHERE CarsPrivodID = 2 AND LangID = 2;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Задний' WHERE CarsPrivodID = 2 AND LangID = 3;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Задній' WHERE CarsPrivodID = 2 AND LangID = 4;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Полний' WHERE CarsPrivodID = 3 AND LangID = 1;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Full' WHERE CarsPrivodID = 3 AND LangID = 2;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Полний' WHERE CarsPrivodID = 3 AND LangID = 3;
+UPDATE gbua_cgdb.CarsPrivodData SET Name = 'Повний' WHERE CarsPrivodID = 3 AND LangID = 4;

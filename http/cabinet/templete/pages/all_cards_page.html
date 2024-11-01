@@ -1,0 +1,82 @@
+{page_primary_title}
+
+<hr class="style-eight mb-4" id="page-options-data">
+
+{advantage}
+
+{page_album}
+
+<hr class="style-eight">
+
+<div class="modal fade" id="ModalForm" tabindex="-1" role="dialog" aria-labelledby="ModalFormLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalFormLabel">{CallBackFormHeader}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <label for="CallBackPhone" class="col-form-label">{Phone}:</label>
+                <input type="text" class="CallBackPhone" id="CallBackPhone" value="">
+                <input type="hidden" id="CallBackCardID">
+                <input type="hidden" id="PageLang" value="{PageLang}">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">{Close}</button>
+                <button type="button" class="btn btn-primary btn-get-callback">{GetCallBack}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var input = document.querySelector("#CallBackPhone"),
+        errorMsg = document.querySelector("#error-msg")
+    var errorMap = [ "{Неправвильный номер}", "{Неверный код страны}", "{Номер слишком короткий}", "{Номер слишком длинный}", "{Неправильный номер}"];
+    var iti = window.intlTelInput(input, {
+        utilsScript: "/cabinet/js/utils.js",
+        preferredCountries: ['ge']
+    });
+    var reset = function() {
+        input.classList.remove("error");
+        errorMsg.innerHTML = "";
+        errorMsg.classList.add("hide");
+    };
+
+    input.addEventListener('blur', function() {
+        reset();
+        validatePhone();
+    });
+
+    input.addEventListener('change', reset);
+    input.addEventListener('keyup', reset);
+
+    function validatePhone() {
+        isValid = false;
+        if (input.value.trim()) {
+            if (iti.isValidNumber()) {
+                isValid = true;
+            } else {
+                input.classList.add("error");
+                var errorCode = iti.getValidationError();
+                ErrorMsg = errorMap[errorCode];
+                if (ErrorMsg != undefined){
+                    errorMsg.innerHTML = errorMap[errorCode];
+                    errorMsg.classList.remove("hide");
+                } else {
+                    input.classList.remove("error");
+                }
+                isValid = false;
+            }
+        }
+        return isValid;
+    }
+
+    $( ".btn-get-callback" ).on( "click", function() {
+        event.preventDefault();
+        get_callback();
+    });
+
+</script>
